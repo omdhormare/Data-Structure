@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h> // Include this header for malloc
+#include <stdlib.h> 
 
 struct node {
     int data;
