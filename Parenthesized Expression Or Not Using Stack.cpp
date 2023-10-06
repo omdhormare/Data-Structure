@@ -11,7 +11,7 @@ struct stack
 
 void init()
 {
-    s1.top = -1; // Assign -1 to indicate an empty stack
+    s1.top = -1;
 }
 
 int isempty()
@@ -45,7 +45,7 @@ char pop()
 {
     char ch;
     if (isempty())
-        return '\0'; // Return null character to indicate an empty stack
+        return '\0'; 
     else
     {
         ch = s1.a[s1.top];
