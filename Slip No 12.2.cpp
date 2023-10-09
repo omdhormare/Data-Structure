@@ -22,7 +22,7 @@ int main()
 	    }	
     }
 
-	printf(" sort :");
+	printf(" Selection sort Method Sort in Ascending order :");
 	for(i=0;i<n;i++)
 	printf("%d\t",a[i]);
 }
